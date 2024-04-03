@@ -40,15 +40,15 @@ Primeiramente criei o repositório no __GitHub__ com nome __"Desafio-Classes-De-
 
 ## Abrindo Visual Studio Code
 
-Para este projeto, mais uma vez eu utilizei o __VS Code da Microsoft__, que é gratuito e fácil de usar. Já estou me abituando, mas ainda tenho muito que aprender.
+Para este projeto, mais uma vez eu utilizei o __VS Code da Microsoft__, que é gratuito e fácil de usar. Já estou me abituando com a ferramenta, mas ainda tenho muito a aprender.
 
 ## Criando o Projeto
 
-Após VS Code aberto, criei a pasta __"src"__ e dentro dela criei o arquivo __"index.js"__, aonde irei criar o código em __JavaScript__. Ainda tenho pouco conhecimento em  __JavaScript__, portanto, todos os conhecimentos que irei utilizar são os que eu aprendi até agora.
+Após __VS Code__ aberto, criei a pasta __"src"__ e dentro dela criei o arquivo __"index.js"__, aonde irei criar o código em __JavaScript__. Ainda tenho pouco conhecimento em  __JavaScript__, portanto, todos os conhecimentos que irei utilizar são os que eu aprendi até agora.
 
 ## Código
 
-- Inicialmente criei uma classe __"caracteristicasHeroi"__ com função __"constructor"__, aonde serão serão inseridas as proriedades do objeto. Depois eu criei uma segunda função chamada __"escreverSaida"__ para escrever no console quando por chamada. O código da classe __"caracteristicasHeroi"__ está demonstrado abaixo:
+- Inicialmente criei uma classe __"caracteristicasHeroi"__ com função __"constructor"__, aonde serão inseridas as proriedades do objeto. Depois eu criei uma segunda função chamada __"escreverSaida"__ para escrever no console quando por chamada. O código da classe __"caracteristicasHeroi"__ está demonstrado abaixo:
 
 ```
 class caracteristicasHeroi{
@@ -76,7 +76,7 @@ let ataqueHeroi = ""
 let heroi = new caracteristicasHeroi("Danielta", "30", "guerreiro")
 ```
 
-- Depois que a variável e o objeto foram criados, utilizei a estrutura __Switch/Case__ para testar as condições mencionadas acima. Esta estrutura atribui a variável __"ataqueHeroi"__ o tipo de ataque do herói, conforme especificado acima. Segue código abaixo:
+- Depois que a variável e o objeto foram criados, utilizei a estrutura __Switch/Case__ para testar as condições mencionadas acima. Esta estrutura atribui a variável __"ataqueHeroi"__ o tipo de ataque do herói. Segue código abaixo:
 
 ```
 switch(heroi.tipo){ 
@@ -109,14 +109,14 @@ console.log("O Herói tem um saldo de " + saldoVitorias + " vitórias e está no
 
 ## Testando Código
 
-Neste teste verifiquei se a lógica estava correta e para isso, escrevi na propriedade "tipo" do "objeto" 5 tipos de personagens, sendo 4 deles os __(guerreiro, mago, monge, ninja)__, que foram pedidos no projeto e também novo "tipo" chamado __"batedor"__, para testar uma condição opcional que não estava no projeto, mas eu me interessei em fazer para ver como a função escreverSaida() se comportava com a entrada de um dado inválido. O código está funcionando corretamente, conforme imagem abaixo:
+Neste teste verifiquei se a lógica estava correta e para isso, escrevi na propriedade "tipo" do "objeto" 5 tipos de personagens, sendo 4 deles __(guerreiro, mago, monge, ninja)__, que foram pedidos no projeto e também novo "tipo" chamado __"batedor"__, para testar uma condição opcional que não estava no projeto, mas eu me interessei em fazer para ver como a função escreverSaida() se comportava com a entrada de um dado inválido. O código está funcionando corretamente, conforme imagem abaixo:
 
 <img src="Image/TestesTiposHerois.JPG">
 
 
 ## Conclusão
 
-Este foi o meu terceiro projeto de __Lógica de Programação__ e fiquei muito feliz com o resultado. Apesar de apenas estar começando na area do programação, achei bem interesse trabalhar com __"classes"__ dentro do __JavaScript__. Lembro que o objetivo deste curso não é me ensinar __JavaScript__, mas sim __Lógica de Programação__, portanto está sendo uma grande experiência para mim.
+Este foi o meu terceiro projeto de __Lógica de Programação__ e fiquei muito feliz com o resultado. Apesar de apenas estar começando na area do programação, achei muito interessante trabalhar com __"classes"__ dentro do __JavaScript__. Lembro, que o objetivo deste curso não é me ensinar __JavaScript__, mas sim __Lógica de Programação__, portanto, está sendo uma grande experiência para mim.
 
 ## Linguagens de Marcação e Programação
 
