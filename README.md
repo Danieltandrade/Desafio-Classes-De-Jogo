@@ -10,17 +10,17 @@ Neste projeto irei descrever a criação de um código em JavaScript, com a saí
 
 ### Objetivo:
 
-Neste desafio irei uma classe que represente um herói de uma aventura e que possua as seguintes propriedades:
+Neste desafio irei criar uma classe que represente um herói de uma aventura e que possua as seguintes propriedades:
 
 - nome
 - idade
 - tipo (ex: guerreiro, mago, monge, ninja)
 
-Além disso, deve-se ter um método chamado atacar que deve atender os seguintes requisitos:
+Além disso, deve-se ter um método chamado "atacar", que deve atender os seguintes requisitos:
 
 - Exibir a mensagem: "O __{tipo}__ atacou usando __{ataque}__"
-- Aonde o __{tipo}__ deve ser concatenando o tipo que está na propriedade da classe
-- No __{ataque}__ devo seguir uma descrição diferente conforme o __tipo__, seguindo a tabela abaixo:
+- Aonde o __{tipo}__ deve ser concatenando com tipo que está na propriedade da classe
+- No __{ataque}__ devo seguir uma descrição diferente, conforme o __tipo__, seguindo a tabela abaixo:
 
 se guerreiro -> no ataque exibir (usou espada)
 se mago -> no ataque exibir (usou magia)
@@ -31,7 +31,7 @@ se ninja -> no ataque exibir (usou shuriken)
 
 Ao final deve se exibir uma mensagem:
 
-- "o {tipo} atacou usando {ataque}"
+- "O {tipo} atacou usando {ataque}"
 - Ex: O mago atacou usando magia; O guerreiro atacou usando espada
 
 ## Criando Repositório
