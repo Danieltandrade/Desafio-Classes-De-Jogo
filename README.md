@@ -2,9 +2,9 @@
 
 Neste projeto irei descrever a criação de um código em JavaScript, com a saída no console, de acordo com o padrão especificado no desafio de projeto logo abaixo.
 
--Curso: Lógica de Programação
--Instrutor: Felipe Silva Aguiar
--Instituição: [DIO.me](https://www.dio.me/)
+- Curso: Lógica de Programação
+- Instrutor: Felipe Silva Aguiar
+- Instituição: [DIO.me](https://www.dio.me/)
 
 ## Desafio
 
