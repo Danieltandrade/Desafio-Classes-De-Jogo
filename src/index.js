@@ -33,13 +33,13 @@ Ao final deve se exibir uma mensagem:
 
 //Criando classe chamada "caracteristicaHeroi"
 class caracteristicasHeroi{
-    constructor(nome, idade, tipo){
+    constructor(nome, idade, tipo){  //Função para criar as propriedades do herói
         this.nome = nome
         this.idade = idade
         this.tipo = tipo
     }
 
-    escreverSaida(){
+    escreverSaida(){  //Função para escrita de saída no console
         if(ataqueHeroi === "classe incorreta"){
             console.log(`Você não escolheu uma classe ou ela está incorreta, favor escolher 
             entre as classes: guerreiro, mago, monge ou ninja. ` + this.tipo)
@@ -49,10 +49,11 @@ class caracteristicasHeroi{
     }
 }
 
-let ataqueHeroi = ""
-let heroi = new caracteristicasHeroi("Danielta", "30", "batedor")
+let ataqueHeroi = ""  //Variável do tipo String para receber o ataque do herói
+let heroi = new caracteristicasHeroi("Danielta", "30", "batedor") //Criação do objeto
 
-switch(heroi.tipo){
+//Estrutura para receber a classe do herói e retornar o ataque de acordo com sua classe
+switch(heroi.tipo){ 
     case "guerreiro":
         ataqueHeroi = "espada"
     break
@@ -73,4 +74,4 @@ switch(heroi.tipo){
         ataqueHeroi = "classe incorreta"
 }
 
-heroi.escreverSaida()
+heroi.escreverSaida() //Utilizando a função escreverSaida para escrever no console
